@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Presentation, Slide Decks, and Prompt Artifacts
+PPT/
+presentation/
+*.pptx
+*.ppt
+*.pdf
+GEMINI_PPT_PROMPT.txt
+MAJOR_PROJECT_PRESENTATION_DATA.md
+Plans/ARGON_TASK_SPEC.md
+*prompt*
+*presentation*
+
+# Temporary builds, caches & IDE files
+.build/
+.chart-data-*/
+*.tmp
+temp_assets/
+progress/temp_assets/
+.idea/
+.vscode/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets and Medical Imaging Data (ADNI DUA Compliance)
+data/preprocessed_128/
+data/raw/
+dataset/
+*.dcm
+*.nii
+*.nii.gz
+*.xml
+
+# Visualization Volumes (Large 3D outputs)
+visualizations/nifti_volumes/
+
+# Model Checkpoints (Binary model weights)
+checkpoints/
+*.pt
+*.pth
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
